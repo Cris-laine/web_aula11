@@ -1,0 +1,42 @@
+#cursos{
+    background-color: pink;
+}
+#web{
+    background-color: red;
+}
+.box{
+    background-color: coral;
+}
+.html{
+    background-color: green;
+}
+.css{
+    background-color: yellow;
+}
+.javascript{
+    background-color: blue;
+}
+.bootstrap{
+    background-color: gray;
+}
+
+#cursos,
+#web{
+    display: block;
+    width: 300px;
+    height: 100px;
+}
+
+#html,
+#css{
+    display: inline;
+    width: 300px;
+    height: 100px;
+}
+
+#javascript,
+#bootstrap{
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+}
