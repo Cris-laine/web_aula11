@@ -1,4 +1,4 @@
-#cursos{
+/*#cursos{
     background-color: pink;
 }
 #web{
@@ -39,4 +39,31 @@
     display: inline-block;
     width: 300px;
     height: 100px;
+}*/
+body{
+    font-size: 32px;
+    margin: 0;
+}
+.frase1, 
+.frase2,
+.referencia{ 
+    text-aling: left;
+    width: 500px;
+    background-color: yellow;
+}
+p{
+    margin: 10px;
+}
+.referencia{
+    background-color: pink;
+    height: 20px;
+}
+.frase1{
+    border: 3px solid red;
+    padding: 20px;
+}
+.frase2{
+    box-sizing: border-box;
+    border: 3px solid red;
+    padding: 20px;
 }
